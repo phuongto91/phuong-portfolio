@@ -481,8 +481,9 @@ footer{
     .timeline ol li div p{font-size: 13px;}
     .timeline ol li div h5{font-size: 13px;}
     .timeline ol li{width:50px}
-    .timeline ol li div{left: 55px;    }
+    .timeline ol li div{left: 55px;  margin-bottom: 30px;  }
     .about__img{padding-left: 15px;}
+    footer{margin-top: 50px;}
 }
 
 /*tablet*/
