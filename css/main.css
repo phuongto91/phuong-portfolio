@@ -475,6 +475,7 @@ footer{
     .timeline ol li div h5{font-size: 13px;}
     .timeline ol li{width:70px}
     .timeline ol li div{left: 75px;  margin-bottom: 30px;  }
+    .experience__color{width: 70%;}
 }
 
 @media only screen and (max-width: 576px){
