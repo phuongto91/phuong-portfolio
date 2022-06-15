@@ -5,7 +5,7 @@ owl.owlCarousel({
     loop:true,
     margin:15,
     autoplay:true,
-    autoplayTimeout:1500,
+    autoplayTimeout:2000,
     autoplayHoverPause:true,
     dots:false,
     responsiveClass:true,
@@ -21,12 +21,12 @@ owl.owlCarousel({
         1000:{
             items:4,
             nav:false,
-            loop:false
+            loop:true
         }
     }
 });
 $('.play').on('click',function(){
-    owl.trigger('play.owl.autoplay',[1500])
+    owl.trigger('play.owl.autoplay',[2000])
 })
 $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')

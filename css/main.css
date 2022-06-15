@@ -415,6 +415,9 @@ hr{
 }
 
 /*objective*/
+#objective{
+    margin-bottom: 50px;
+}
 .objective__title{
     text-align: center;
     margin-top: 100px;
@@ -433,8 +436,7 @@ hr{
 
 /*footer*/
 footer{
-    text-align: center;
-    
+    text-align: center; 
 }
 .footer__social {
     margin-bottom: 50px;
@@ -495,7 +497,7 @@ footer{
     .timeline ol li{width:50px}
     .timeline ol li div{left: 55px;   }
     .about__img{padding-left: 15px; margin-bottom: 30px;}
-    #objective{margin-top: 50px;}
+    
 }
 
 
@@ -528,12 +530,12 @@ footer{
     .timeline ol li div{left: 155px; width: 200px; padding: 15px;   }
 
     .item__image {height: 300px;}
-    .item__image img {        bottom: -185px;    }
+    .item__image img {        bottom: -320px;    }
 }
 
 /*laptop*/
 @media screen  and (min-device-width: 1200px)   and (max-device-width: 1600px) {
-    .item__image img{ bottom: -280px;} 
+    .item__image img{ bottom: -450px;} 
 
     .about__download{margin-top: 50px;}
 }
