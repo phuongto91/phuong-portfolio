@@ -40,7 +40,7 @@ p{
     border: none;
     background: transparent;
     background-image:linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-end));
-    border-radius:0 10px;
+    border-radius:5px;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
