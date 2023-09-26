@@ -399,6 +399,7 @@ hr{
     height: 350px;
     overflow: hidden;
     position: relative;
+    margin-top: 0;
 }
 .item__image img{
     max-width: 100%;
