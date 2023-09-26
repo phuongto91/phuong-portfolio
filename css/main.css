@@ -173,7 +173,8 @@ header h5{
     background:var(--bgr-transparent);
     border: none;
     z-index: 1;
-    border-radius: 0 10px;
+    border-radius: 5px;
+    border-color: #107cf4;
 }
 .about__download .btn::after{
     position: absolute;
