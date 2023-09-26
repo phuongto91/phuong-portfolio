@@ -462,7 +462,7 @@ footer{
     outline: none;    
     color: var(--color-white); 
     padding:10px 15px;  
-    border-radius:0 10px; 
+    border-radius:5px; 
     font-size: 15px;  
     background: linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-end));
 }
