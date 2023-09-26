@@ -8,12 +8,12 @@
     text-decoration: none;
 }
 :root{
-    --color-primary:#107cf4;
-    --color-secondary:#d641a7;
-    --color-end:#f44e5b;
+    --color-primary:#0351bf;
+    --color-secondary:#11f2ce;
+    --color-end:#8c4fab;
     --color-white:#fff;
     --color-bgr: #0c0f16;
-    --bgr-transparent :rgb(255 255 255 / 40%);
+    --bgr-transparent :rgb(255 255 255 /25%);
     --transition: all 500ms cubic-bezier;
 }
 body{
@@ -31,7 +31,8 @@ p{
     font-weight: normal;
 }
 .color{
-    background: linear-gradient(to right, var(--color-primary), var(--color-end));
+    /* background: linear-gradient(to right, var(--color-primary), var(--color-end)); */
+    background: var(--color-white);
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent;
 }
@@ -39,7 +40,8 @@ p{
     padding: 12px;
     border: none;
     background: transparent;
-    background-image:linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-end));
+    /* background-image:linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-end)); */
+    background-image:linear-gradient(to right, var(--color-primary), var(--color-secondary));
     border-radius:5px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -166,11 +168,11 @@ header h5{
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
-    box-shadow: inset 2px 2px 2px 0px var(--color-primary), 7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%);
+    /* box-shadow: inset 2px 2px 2px 0px var(--color-primary), 7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%); */
     outline: none;
 }
 .about__download .btn{
-    background:var(--bgr-transparent);
+    background:var(--color-end);
     border: none;
     z-index: 1;
     border-radius: 5px;
@@ -197,6 +199,10 @@ header h5{
 .about__download .btn:active{
     top: 2px;
 }
+.about__cv a {
+    color: var(--color-white);
+}
+
 .about__cv:hover a{
     color: var(--color-white);
 }
@@ -333,7 +339,7 @@ hr{
 }
 .timeline h5{
     font-size: 20px;
-    color: var(--color-primary);
+    color: var(--color-secondary);
     text-transform: capitalize;
     font-weight: 600;
 }
