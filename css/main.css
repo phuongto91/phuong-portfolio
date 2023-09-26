@@ -464,7 +464,7 @@ footer{
     padding:10px 15px;  
     border-radius:5px; 
     font-size: 15px;  
-    background: linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-end));
+    background: linear-gradient(to right, var(--color-primary), var(--color-secondary));
 }
 
 #myBtn:hover {
