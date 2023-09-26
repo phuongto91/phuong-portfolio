@@ -13,7 +13,7 @@
     --color-end:#f44e5b;
     --color-white:#fff;
     --color-bgr: #0c0f16;
-    --bgr-transparent :rgb(255 255 255 / 20%);
+    --bgr-transparent :rgb(255 255 255 / 40%);
     --transition: all 500ms cubic-bezier;
 }
 body{
