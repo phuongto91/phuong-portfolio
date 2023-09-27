@@ -248,7 +248,7 @@ hr{
 .introduce__text{
     background:var(--color-bgr) ;
     padding: 25px;
-    opacity: 1;
+    opacity: 0.9;
 }
 
 
