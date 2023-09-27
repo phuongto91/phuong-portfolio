@@ -12,7 +12,7 @@
     --color-secondary:#11f2ce;
     --color-end:#8c4fab;
     --color-white:#fff;
-    --color-bgr: #0c0114;
+    --color-bgr: #160025;
     --bgr-transparent :rgb(255 255 255 /25%);
     --transition: all 500ms cubic-bezier;
 }
@@ -20,7 +20,7 @@ body{
     font-family: 'Sarabun', sans-serif;
     background: var(--color-bgr);
     color: var(--color-white);
-    background-image: url(/image/bg.jpg);
+    background-image: url(../image/bg.jpg);
 }
 .container{
     margin: 0 auto;
@@ -242,12 +242,13 @@ hr{
 #introduce{
     margin-top: 50px;
     background:linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-end));
-    padding: 3px;
+    padding: 2px;
 
 }
 .introduce__text{
     background:var(--color-bgr) ;
     padding: 25px;
+    opacity: 1;
 }
 
 
