@@ -114,11 +114,11 @@ header h5{
 }
 .about__details span{
     color:var(--color-white)!important;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
     border-radius:0 5px;
-    padding: 10px 15px;
+    padding: 10px 25px;
     position: relative;
 }
 .about__details h2{
@@ -394,7 +394,7 @@ hr{
     font-size: 13px;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 15px 20px;
+    padding: 10px 25px;
     transition: all 0.3s;
 }
 .caption a:hover{
