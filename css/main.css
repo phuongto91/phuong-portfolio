@@ -360,6 +360,7 @@ hr{
     background-color:var(--bgr-transparent);
     border: 2px solid var(--bgr-transparent);
     padding: 0;
+    border-radius: 10px;
 }
 .project__dev .thumbnail:hover{
     background-color:rgb(16 124 244 / 10%) ;
@@ -370,6 +371,7 @@ hr{
     overflow: hidden;
     position: relative;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 .project__dev .thumbnail img{
 	transition: all 0.3s ease-out;
@@ -406,6 +408,7 @@ hr{
     overflow: hidden;
     position: relative;
     margin-top: 0;
+    border-radius: 10px;
 }
 .item__image img{
     max-width: 100%;
